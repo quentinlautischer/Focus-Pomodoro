@@ -1,5 +1,5 @@
 import { Injectable, Output, EventEmitter } from '@angular/core';
-import { EventModel } from '../models/EventModel';
+import { EventModel } from '../models/event.model';
 import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 import { ModalService } from '../services/modal.service';

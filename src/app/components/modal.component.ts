@@ -1,7 +1,7 @@
 import { Component, Input, OnInit, OnChanges, SimpleChanges, ViewEncapsulation } from '@angular/core';
 import { ModalService } from '../services/modal.service';
 import { EventService } from '../services/event.service';
-import { EventModel } from '../models/eventModel';
+import { EventModel } from '../models/event.model';
 
 @Component({
   selector: 'app-modal',

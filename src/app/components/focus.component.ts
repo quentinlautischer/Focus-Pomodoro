@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { EventService } from '../services/event.service';
-import { EventModel } from '../models/eventModel';
+import { EventModel } from '../models/event.model';
 @Component({
   selector: 'focus',
   template: `<title-component name="Focus Item"></title-component>

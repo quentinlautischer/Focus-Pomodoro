@@ -1,8 +1,8 @@
 import { Component, Input } from '@angular/core';
-import { Strike } from '../models/strike';
+import { Strike } from '../models/strike.model';
 import { NotificationService } from '../services/notification.service';
 import { EventService } from '../services/event.service';
-import { EventModel } from '../models/eventModel';
+import { EventModel } from '../models/event.model';
 
 @Component({
   selector: 'strikes',

@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import { Subject } from 'rxjs';
-import { EventModel } from '../models/eventModel';
+import { EventModel } from '../models/event.model';
 import { ModalComponent } from '../components/modal.component';
 
 @Injectable()
